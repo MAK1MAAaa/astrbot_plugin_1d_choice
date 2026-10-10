@@ -1,0 +1,7 @@
+name: astrbot_plugin_1d_choice
+display_name: 1d 选择回应
+desc: 发送“1d选项还是选项”随机选择；空选项或重复选项交给当前人格回怼。
+version: v1.0.0
+author: makima
+repo: https://github.com/MAK1MAAaa/astrbot_plugin_1d_choice
+astrbot_version: ">=4.5.7"

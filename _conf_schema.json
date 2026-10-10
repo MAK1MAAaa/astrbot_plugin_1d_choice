@@ -1,0 +1,20 @@
+{
+  "max_input_length": {
+    "description": "选择题总长度上限（字符）",
+    "type": "int",
+    "default": 2000,
+    "hint": "包含 1d 前缀。超限交给人格兜底，送入模型的题面截断至此长度。最小为 2。"
+  },
+  "max_options": {
+    "description": "单题选项数量上限",
+    "type": "int",
+    "default": 32,
+    "hint": "超过上限交给人格兜底，最小为 2。"
+  },
+  "fallback_cooldown_seconds": {
+    "description": "每用户人格兜底冷却（秒）",
+    "type": "int",
+    "default": 10,
+    "hint": "同一会话内按用户限制 LLM 兜底次数。冷却中返回固定的格式错误提示；0 为关闭。有效选择不受影响。"
+  }
+}
